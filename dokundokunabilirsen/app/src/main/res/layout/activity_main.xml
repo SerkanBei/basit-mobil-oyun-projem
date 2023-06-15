@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="342dp"
+        android:layout_height="414dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="408dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.29">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b1"
+                android:visibility="visible"
+                app:layout_column="0"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b2"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b3"
+                app:layout_column="2"
+                app:layout_row="0" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b4"
+                app:layout_column="0"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b5"
+                app:layout_column="1"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b6"
+                app:layout_column="2"
+                app:layout_row="1" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b7"
+                app:layout_column="0"
+                app:layout_row="2" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b8"
+                app:layout_column="1"
+                app:layout_row="2" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="113dp"
+                android:layout_height="136dp"
+                android:background="@drawable/fly"
+                android:onClick="b9"
+                app:layout_column="2"
+                app:layout_row="2" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="214dp"
+        android:layout_height="78dp"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
